@@ -46,3 +46,7 @@ To test locally:
 ```bash
 node scripts/test-compress.mjs <path-to-pdf>
 ```
+
+## License
+
+This project is licensed under the **AGPL-3.0-or-later** license. This is required because the project depends on Ghostscript (via `@okathira/ghostpdl-wasm`), which is also licensed under the AGPL. See the [LICENSE](LICENSE) file for details.
