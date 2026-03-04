@@ -1,9 +1,10 @@
 # n8n-nodes-pdf-compress
 
-Compress PDF files in n8n workflows using Ghostscript compiled to WebAssembly. This node is pure JavaScript/WebAssembly and does **not** require Ghostscript to be installed on the system.
+Compress PDF files in n8n workflows using Ghostscript compiled to WebAssembly. This node is **free**, requires **no API key or external service**, and runs purely in Node.js—no system Ghostscript install needed.
 
 ## Features
 
+- **Free & no API**: No sign-up, API key, or third-party service. Everything runs locally in your n8n instance.
 - **Pure JS/WASM**: Works in any n8n environment (Docker, Cloud, Desktop) without additional system dependencies.
 - **Ghostscript Power**: Uses the industry-standard Ghostscript engine (via `@okathira/ghostpdl-wasm`) for high-quality compression.
 - **Compression Presets**: Choose between different quality/size trade-offs (Screen, Ebook, Printer, Prepress, Default).

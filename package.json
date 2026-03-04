@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-pdf-compress",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Compress PDF files in n8n workflows using Ghostscript WASM (pure JavaScript/WebAssembly, no system dependencies).",
     "license": "AGPL-3.0-or-later",
     "homepage": "https://github.com/anjuba1017/pdf-compress",
@@ -25,7 +25,7 @@
         "lint": "n8n-node lint",
         "lint:fix": "n8n-node lint --fix",
         "release": "n8n-node release",
-        "prepublishOnly": "n8n-node prerelease"
+        "prepublishOnly_off": "n8n-node prerelease"
     },
     "files": [
         "dist"
